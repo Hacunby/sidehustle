@@ -1,0 +1,353 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.topnav{
+    background-color:hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-topnav{
+    display: flex;
+    margin-left:auto;
+    align-items: center;
+    
+}
+
+.nav-topnav a {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin:2px 70px
+}
+
+
+
+.topnav img{
+    width: 200px;
+    border: none;
+}
+
+
+.content1{
+        background-color:  hsl(217, 28%, 15%);
+        color:hsl(0, 0%, 100%);
+}
+
+.content1 img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.body-intro h1{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+    font-size: 40px;
+    position: relative;
+    top:-70px
+
+   
+}
+.body-intro p{
+    text-align: center;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: -70px;
+}
+.body-intro button{
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+    position: relative;
+    
+}
+
+.body-intro button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+    
+
+.body-intro{
+    width: 100%;
+    min-height: 40vh;
+    background-image: url("bg-curvy-desktop.svg");
+    background-size: cover;
+    background-position: top;
+    background-color:  hsl(217, 28%, 15%);
+    position: relative;
+    
+}
+.Bigdiv1{
+    width: 100%;
+    min-height: 40vh;
+    background-color:hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 100px;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.Div1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: auto 70px;
+    text-align: center;
+}
+
+.Div2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: auto 70px;
+    text-align: center;
+}
+
+.Bigdiv2{
+    width: 100%;
+    min-height: 40vh;
+    background-color:hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 100px;
+    color:hsl(0, 0%, 100%);
+    
+}
+
+.Div3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: auto 70px;
+    text-align: center;
+}
+
+.Div4{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: auto 70px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container1 img{
+    width: 70%;
+    padding-left: 150px;
+}
+
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+}
+
+.container2 a{
+    color: hsl(198, 60%, 50%); 
+}
+
+.container2 a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.Hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: hsl(218, 28%, 13%);
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 100px;
+ 
+}
+
+.card{
+    background-color: hsl(219, 30%, 18%);
+    width: 300px;
+    min-height:30vh;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    margin: 30px;
+}
+.card img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.avatar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.div-max{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    min-height:5vh;
+    background-color:hsl(217, 28%, 15%); 
+    
+}
+
+.div-max1{
+    width: 50%;
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: -20vh;
+    box-shadow: 10px 10px 20px black
+}
+
+#email{
+    min-height: 4vh;
+    width: 50vh;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+}
+
+.div-max1 button{
+    width: 200px;
+    min-height: 4vh;
+    border-radius: 15px;
+    background-color: hsl(198, 60%, 50%); 
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div-max1 button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+    
+
+.div-max1 h2{
+    padding-bottom: 30px;
+}
+
+.div-max1 p{
+    padding-bottom: 30px;
+}
+
+.small-container1 img{
+    width: 25%;
+
+}
+
+.footer-container{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto px;
+    background-color:hsl(217, 28%, 15%);
+}
+
+.small-container1{
+    background-color:hsl(217, 28%, 15%);
+    width: 35%;
+    height: 25vh;
+    position: relative;
+    left: -20vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.small-container2{
+    background-color:hsl(217, 28%, 15%);
+    height: 25vh;
+    position: relative;
+    left: -15vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.small-container3{
+    background-color: hsl(217, 28%, 15%);
+    height: 25vh;
+    position: relative;
+    left: 5vh;
+    color: hsl(0, 0%, 100%);
+}
+.small-container4{
+    background-color: hsl(217, 28%, 15%);
+    height: 25vh;
+    position: relative;
+    left: 15vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.small-container5{
+    background-color:hsl(217, 28%, 15%);
+    width: 100px;
+    height: 25vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.little{
+    display: flex;
+}
+.little p{
+    position: relative;
+    left: 15px;
+}
